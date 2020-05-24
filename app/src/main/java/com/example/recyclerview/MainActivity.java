@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         recyclerView.setAdapter(fruitadapter);
     }
     private void initFruit(){
+        //增加
         for (int i=0;i<10;i++){
             Fruit apple=new Fruit("Apple",R.drawable.computer);
             fruitList.add(apple);
